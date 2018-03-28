@@ -1,0 +1,119 @@
+.header-main {
+	background: url('../img/DeathtoStock_Wired7.jpg');
+	background-size: cover;
+	transition: fill .4s;
+	height: 100vh;
+	color: #fff;
+}
+.header-top {
+	height: 120px;
+}
+.header-menu {
+	padding-left: 0;
+	list-style: none;
+	margin: 40px 0 0 0;
+	font-family: 'proxima_nova', sans-serif;
+
+	&__item {
+		display: inline-block;
+		
+		
+		&:not(:first-child) {
+			padding-left: 30px;
+		}
+
+		a {
+			color: #fff;
+			text-transform: uppercase;
+			font-size: 24px;
+			font-weight: 700;
+
+			&:hover {
+				color: #d06565;
+			}
+		}
+
+	}
+}
+.header-center {
+	min-height: 60vh;
+
+	h1 {
+		text-transform: uppercase;
+		font-family: 'proxima_nova', sans-serif;
+		font-size: 72px;
+	}
+	p {
+		font-size: 30px;
+		font-style: italic;
+		max-width: 700px;
+		margin: auto;
+	}
+}
+
+.logo {
+	fill: #f6f6f6;
+	fill-rule: evenodd;
+	position: relative;
+	top: 35px;
+
+	&:hover {
+		fill: #d06565;
+	}
+}
+
+.about {
+	padding: 125px 0 120px;
+	
+
+	&__image {
+		background: url("../img/about.png");
+		background-size: cover;
+		padding-top: 70px;
+	}
+
+	&__title {
+		font-size: 36px;
+		font-family: 'proxima_nova', sans-serif;
+		text-transform: uppercase;
+		color: #fff;
+		margin-top: 40px;
+	}
+
+	&__info {
+		text-align: center;
+		padding-bottom: 70px;
+	}
+	&__text {
+		padding: 70px 0;
+	}
+
+	p {
+		color: #665f60;
+		font-size: 20px;
+		text-align: left;
+	}
+}
+.ctn-button {
+	height: 50px;
+	line-height: 50px;
+	display: inline-block;
+	border: 1px solid #7d7a7c;
+	color: #665f60;
+	font-size: 20px;
+	padding: 0 50px;
+	font-style: italic;
+
+	&:hover {
+		background-color: #665f60;
+		color: #fff;
+	}
+}
+
+
+
+
+
+
+
+
